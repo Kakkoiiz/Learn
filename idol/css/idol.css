@@ -1,0 +1,178 @@
+
+
+html, body {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Navigation */
+
+.navbar {
+   /* background-color: var(--nav-color); */
+   background-color: bisque;
+   position: relative;
+}
+
+/* -----------Top Bar--------------- */
+
+.header-meta-list {
+   justify-content: space-around;
+   align-items: center;
+   height: 42px;
+   
+}
+
+.header-meta-list > div > a {
+   color: #00000099;
+   font-size: 0.7em;
+   text-decoration: none;
+   display: flex;
+}
+
+.header-meta-list > div > a > p {
+   margin-top: 5px;
+   margin-left: 0.3rem;
+}
+
+.header-meta-list > div > a:hover {
+   color: var(--text_hover-color);
+   
+}
+
+/* -----------------Header---------------- */
+
+.navbar-brand > img {
+   height: 55px;
+   width: 200px;
+
+}
+
+
+.navbar-menu {
+   flex: 1;
+
+}
+
+.menu-items {
+   justify-content: space-around;
+}
+
+.menu-items > li > a {
+   color: var(--text-color);
+   text-decoration: none;
+}
+
+.menu-items > li > a:hover {
+   color: var(--text_hover-color);
+}
+
+
+
+/* --------Order---------- */
+
+
+.cover-page {
+   margin-top: 80px;
+}
+
+.menu-order {
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   width: 900px;
+   margin-left: 110px;
+   border-radius: 10px;
+}
+
+
+
+.left-cols {
+   width: 440px;
+}
+
+.right-cols {
+   width: 450px;
+}
+
+.item-menu > img {
+   width: 400px;
+   height: 400px;
+   border-radius: 10px;
+}
+
+.item-card > span {
+   font-size: 0.85rem;
+   line-height: 1.5rem;
+   text-align: center;
+}
+
+
+.card-product-quantity-config {
+   width: 110px;
+   justify-content: space-between;
+}
+
+
+.card-product-name {
+   font-size: 30px;
+   font-weight: 600;
+
+}
+
+.card-product-footer {
+   height: 32px;
+}
+
+.card-product-decrease,
+.card-product-increase {
+   width: 32px;
+   height: 32px;
+   background-color: rgb(250,140,22);
+   border-radius: 50%;
+}
+
+.btn-quantity {
+   transform: translateY(-3px);
+   margin-left: -3px;
+
+}
+
+.input-group {
+   height: 44px;
+   color: rgb(245,245,245);
+   
+}
+
+.input-group-text {
+   border: 1px solid rgb(227, 214, 214);
+   background-color: rgb(245,245,245);;
+}
+
+.form-input {
+   flex: 1;
+   outline: none;
+   border: 1px solid rgb(227, 214, 214);
+   padding-left: 15px;
+}
+
+.card-product-option {
+   background-color: rgb(237,237,237);
+   padding: 13px 0px;
+}
+
+.card-product-text {
+   margin-left: 15px;
+   font-size: 0.8rem;
+   font-weight: 600;
+}
+
+.card-product-option-size-item {
+   padding: 15px 0;
+   border: 1px solid rgb(227, 214, 214);
+}
+
+.card-product-option-value {
+   
+}
+
+
+
+.card-product-option-item {
+   padding: auto;
+}

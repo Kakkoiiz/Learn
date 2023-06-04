@@ -1,0 +1,13 @@
+:root {
+    --take-color: violet; 
+}  /*bien cho toan bo */
+h1 {    
+    --my-color: green; /* bien cho 1 cai*/
+    color: var(--my-color);
+}
+h2 {
+    color: var(--take-color);
+}
+h3 {
+    color: var(--take-color);
+}

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "IDol",
+			"path": "../../IDol"
+		},
+		{
+			"name": "f8",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "f8"
+	}
+}
