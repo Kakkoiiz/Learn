@@ -41,6 +41,23 @@
         animation: fade ease .6s;
        
       }
+      .tab_img{
+        position: relative;
+        
+      }
+
+      .next, .prev {
+        position: absolute;
+        top: 50%;
+      }
+
+      .next {
+        right: 0;
+      }
+
+     
+
+
       .tab_dots {
         display: flex;
         justify-content: center;
@@ -98,6 +115,11 @@
           <img src="https://i.pinimg.com/564x/56/d7/94/56d7941870dcccf8066b0f5acc92ef21.jpg" alt="" class="img active">
           <img src="https://i.pinimg.com/736x/96/ce/c8/96cec80127a9fbb1c3673e3bfe29ea94.jpg" alt="" class="img">
           <img src="https://i.pinimg.com/564x/0e/41/1c/0e411c4d2711f6860301fc48ce2bb457.jpg" alt="" class="img">
+
+          <div class="control">
+            <button class="prev"> prev</button>
+            <button class="next"> next</button>
+          </div>
         </div>
       </div>
 
